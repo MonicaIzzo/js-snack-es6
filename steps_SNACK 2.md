@@ -20,7 +20,7 @@ __________________________________
 <br>
 
 - **0**
-  - Creo un Arrey [Students] con chiave: id, nome e voto.
+  - Creo un object [Students] con chiave: id, nome e voto.
   
 - **1**
   - Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [TopStudents] utilizzando un [if] con condizione [votiTotal > 70] (esiste una funzione spiegata da Marco in aula per non usare if? Mi sembra di si.)

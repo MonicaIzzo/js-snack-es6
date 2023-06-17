@@ -7,7 +7,7 @@ Generiamo e stampiamo in console la lista per i segnaposto.
 <br>
 
 - **0**
-  - Creo un Arrey [Vip] [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'] con attributi: nome del tavolo, nome dell'ospite e posto occupato.
+  - Creo un object [Vip] [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'] con attributi: nome del tavolo, nome dell'ospite e posto occupato.
   
 - **1**
   - Stampo in console.
