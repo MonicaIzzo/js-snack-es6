@@ -18,7 +18,7 @@ Id  Name                Grades
 
 console.log('JS OK')
 
-// # creo l'arrey dei studenti
+// #0 creo l'arrey dei studenti
 const students = [
     {
         id: 213,
@@ -57,8 +57,21 @@ const students = [
     },
 ];
 
-// #
+// #1 Mi creo l'array dei studenti più bravi
+    const bestStudents = students.filter(students => {
+        return students.grades > 70;
+    });
+console.log(bestStudents);
 
-// #
+// # Mi creo l'array dei studenti più bravi e con l'id superiore a 120
+    const bestNewsStudents = bestStudents.filter(students => {
+        return students.id > 120;
+    });
+console.log(bestNewsStudents);    
 
-// #
+// # Creo le targhe
+const targhe = students.map((students) => {
+        return students.name.toLocaleUpperCase();
+});
+
+console.log(targhe);
