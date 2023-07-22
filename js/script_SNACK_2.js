@@ -16,62 +16,62 @@ Id  Name                Grades
 120 Francesca da Polenta    84 
 */
 
-console.log('JS OK')
+console.log("JS OK");
 
 // #0 creo l'arrey dei studenti
 const students = [
-    {
-        id: 213,
-        name: "Marco della Rovere",
-        grades: 78,
-    },
-    {
-        id: 110,
-        name: "Paola Cortellessa",
-        grades: 96,
-    },
-    {
-        id: 250,
-        name: "Andrea Mantegna ",
-        grades: 48,
-    },
-    {
-        id: 145,
-        name: "Gaia Borromini ",
-        grades: 74,
-    },
-    {
-        id: 196,
-        name: "Luigi Grimaldello ",
-        grades: 68,
-    },
-    {
-        id: 102,
-        name: "Piero della Francesca",
-        grades: 50,
-    },
-    {
-        id: 120,
-        name: "Francesca da Polenta",
-        grades: 84,
-    },
+  {
+    id: 213,
+    name: "Marco della Rovere",
+    grades: 78,
+  },
+  {
+    id: 110,
+    name: "Paola Cortellessa",
+    grades: 96,
+  },
+  {
+    id: 250,
+    name: "Andrea Mantegna ",
+    grades: 48,
+  },
+  {
+    id: 145,
+    name: "Gaia Borromini ",
+    grades: 74,
+  },
+  {
+    id: 196,
+    name: "Luigi Grimaldello ",
+    grades: 68,
+  },
+  {
+    id: 102,
+    name: "Piero della Francesca",
+    grades: 50,
+  },
+  {
+    id: 120,
+    name: "Francesca da Polenta",
+    grades: 84,
+  },
 ];
 
 // #1 Mi creo l'array dei studenti più bravi
-    const bestStudents = students.filter(students => {
-        return students.grades > 70;
-    });
+const bestStudents = students.filter((students) => {
+  return students.grades > 70;
+});
 console.log(bestStudents);
 
 // # Mi creo l'array dei studenti più bravi e con l'id superiore a 120
-    const bestNewsStudents = bestStudents.filter(students => {
-        return students.id > 120;
-    });
-console.log(bestNewsStudents);    
+const bestNewsStudents = bestStudents.filter((students) => {
+  return students.id > 120;
+});
+console.log(bestNewsStudents);
 
 // # Creo le targhe
 const targhe = students.map((students) => {
-        return students.name.toLocaleUpperCase();
+  return students.name.toLocaleUpperCase();
 });
 
 console.log(targhe);

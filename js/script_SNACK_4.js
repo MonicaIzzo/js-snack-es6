@@ -10,67 +10,54 @@ Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengon
 
 // FUNZIONI
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max + 1 - min) + min);
-
+const getRandomNumber = (min, max) =>
+  Math.floor(Math.random() * (max + 1 - min) + min);
 
 // OPERAZIONI PRELIMINARI
 
 // #0 creo l'arrey e setto le variabili [points] e [fouls] a [0] mentre setto la variabile [nome].
 const squadre = [
-    {
-        name: 'Squadra1',
-        points: 0,
-        fouls: 0,
-    },
-        {
-        name: 'Squadra2',
-        points: 0,
-        fouls: 0,
-    },
-        {
-        name: 'Squadra3',
-        points: 0,
-        fouls: 0,
-    },
+  {
+    name: "Squadra1",
+    points: 0,
+    fouls: 0,
+  },
+  {
+    name: "Squadra2",
+    points: 0,
+    fouls: 0,
+  },
+  {
+    name: "Squadra3",
+    points: 0,
+    fouls: 0,
+  },
 ];
 
 // #1 Recupero gli elementi in pagina
 
-const tableBody = document.querySelector('tbody');
+const tableBody = document.querySelector("tbody");
 
 // #2 Genero dei numeri Random entro un range definito.
-squadre.forEach(squadra => {
-    squadra.fouls = getRandomNumber(0, 40);
-    squadra.points = getRandomNumber(0, 100);
+squadre.forEach((squadra) => {
+  squadra.fouls = getRandomNumber(0, 40);
+  squadra.points = getRandomNumber(0, 100);
 });
 
 console.log(squadre);
 
 // #3 Stampo in pagina
-let tableContent = '';
+let tableContent = "";
 
-squadre.forEach(squadra => {
-    const {name, fouls} = squadra;
+squadre.forEach((squadra) => {
+  const { name, fouls } = squadra;
 
-    tableContent += `
+  tableContent += `
         <tr>
             <td> <strong>${name}</strong> - </td>
             <td>falli subiti: <strong>${fouls}</strong></td>
         </tr>
     `;
-});    
+});
 
 tableBody.innerHTML = tableContent;
- 
-
-
-
-
-
-
-
-
-// #3 Dall'arrey di partenza mi creo un nuovo arrey contente solo le proprietà [nome] [falli]
-
-// #4 stampo in Pagina.
-  

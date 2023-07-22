@@ -1,4 +1,5 @@
 # SNACK 4
+
 Creare un array di oggetti di squadre di calcio.
 Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
@@ -9,16 +10,12 @@ Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengon
 
 - **0**
   - Creo l' arrey.
-  
 - **1**
   - Setto le variabili costanti tutte a [0] mentre setto la variabile [nome] vuota.
-
 - **2**
   - Genero dei numeri Random
-
 - **3**
   - Dall'arrey di partenza mi creo un nuovo arrey contente solo le proprietà [nome] [falli]
-
 - **4**
   - stampo in console.
-**FINE** 
+    **FINE**

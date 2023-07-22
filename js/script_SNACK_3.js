@@ -7,32 +7,33 @@ Stampare in console la bici con peso minore utilizzando il destructuring.
 
 // FUNZIONI
 const getLightBikes = (bikes) => {
-    let lighestBikes = bikes[0];
+  let lighestBikes = bikes[0];
 
-    for (let i = 1; i < bikes.lenght; i++) {
-        const currentBike = bikes[i];
+  for (let i = 1; i < bikes.lenght; i++) {
+    const currentBike = bikes[i];
 
-        if (currentBike.weight < lighestBikes.weight); {
-            lighestBikes = currentBike;
-        }
+    if (currentBike.weight < lighestBikes.weight);
+    {
+      lighestBikes = currentBike;
     }
-    return lighestBikes;
+  }
+  return lighestBikes;
 };
 
 // # 0 Creo l'array delle bici.
 const bikes = [
-    {
-        name: 'bike1',
-        weight: 7,
-    },
-        {
-        name: 'bike2',
-        weight: 13,
-    },
-        {
-        name: 'bike2',
-        weight: 11,
-    },
+  {
+    name: "bike1",
+    weight: 7,
+  },
+  {
+    name: "bike2",
+    weight: 13,
+  },
+  {
+    name: "bike2",
+    weight: 11,
+  },
 ];
 
 // # 1 Genero una variaible che contiene solo il nome della bicicletta con il peso minore.
@@ -41,12 +42,10 @@ const bikes = [
 let lighestBikes = getLightBikes(bikes);
 
 // Estrapolo none e peso
-const {name, weight} = lighestBikes;
-
+const { name, weight } = lighestBikes;
 
 // Stampo la bici più leggera in pagina
-const lighestBikesElements = document.getElementById('lighestBikes');
-
+const lighestBikesElements = document.getElementById("lighestBikes");
 
 lighestBikesElements.innerHTML = `
 <div>
@@ -54,6 +53,3 @@ lighestBikesElements.innerHTML = `
     <div><strong>Peso: </strong>  ${weight}</div>
 </div>
 `;
-
-
-// # 2 Stampo in console
