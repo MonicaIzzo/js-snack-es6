@@ -6,10 +6,10 @@ Stampare in console la bici con peso minore utilizzando il destructuring
 <br>
 <br>
 
-- **0**
-  - Creo l'array delle bici.
-- **1**
-  - Utilizzo il metodo destructuring per generare un variaible che contiene solo il nome della bicicletta con il peso minore.
-- **3**
-  - Stampo in console
-    **FINE**
+- **0** Creo l'array delle bici.
+
+- **1** Utilizzo il metodo destructuring per generare un variaible che contiene solo il nome della bicicletta con il peso minore.
+
+- **3** Stampo in console
+
+**FINE**

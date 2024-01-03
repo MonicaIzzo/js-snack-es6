@@ -12,7 +12,7 @@ console.log('JS OK')
 // # arrey dato
 const vips =['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'];
 
-// # Creo il nuovo arrey di oggetti.
+// # Creo il un nuovo arrey di oggetti con il metodo .map();
 const guestsList = vips.map((name, i) => {
     const guest = {
     name,
@@ -24,5 +24,3 @@ return guest;
 
 // # stampo in console
 console.log(guestsList);
-
-// #

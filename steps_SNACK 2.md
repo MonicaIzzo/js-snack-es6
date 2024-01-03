@@ -23,16 +23,11 @@ Id Name Grades
 <br>
 <br>
 
-- **0**
-  - Creo un object [Students] con chiave: id, nome e voto.
-- **1**
+- **0** Creo un arrey di oggetti [Students] con chiave: id, nome e voto.
+- **1** Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [TopStudents] utilizzando un [if] con condizione [votiTotal > 70] (esiste una funzione spiegata da Marco in aula per non usare if? Mi sembra di si.)
 
-  - Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [TopStudents] utilizzando un [if] con condizione [votiTotal > 70] (esiste una funzione spiegata da Marco in aula per non usare if? Mi sembra di si.)
+- **2** Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [TopStudents] utilizzando un [if] con condizione [votiTotal > 70] e [Id > 120] (esiste una funzione spiegata da Marco in aula per non usare if? Mi sembra di si.)
 
-- **2**
+- **3** Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [nameStudents] con [chiave(nome)] e alla stringa risultante applico la funzione che mi trasforma le stringhe tutto in maiuscolo.
 
-  - Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [TopStudents] utilizzando un [if] con condizione [votiTotal > 70] e [Id > 120] (esiste una funzione spiegata da Marco in aula per non usare if? Mi sembra di si.)
-
-- **3**
-  - Partendo dall'arrey [Students] con funzione filter mi creo un nuovo arrey [nameStudents] con [chiave(nome)] e alla stringa risultante applico la funzione che mi trasforma le stringhe tutto in maiuscolo.
-    **FINE**
+**FINE**
